@@ -1,0 +1,30 @@
+.con-shoucang{
+    padding-bottom:60px;
+}
+
+.goods-shoucang{
+    padding: 12px;
+    height:120px;
+    width:300px;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-left: 36px;
+}
+.p-shoucang{
+    margin-top: 16px;
+}
+.btn-shoucang{
+    height:22px;
+    width:100px;
+    margin-top:10px;
+    margin-left:50px;
+    color: black;
+    border:1px solid silver;
+    background-color:white;
+}
+.img-shoucang{
+    float: left;
+    height:100px;
+    width:100px;
+}

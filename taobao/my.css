@@ -1,0 +1,23 @@
+.log{
+    height:280px;
+    width:330px;
+    margin:100px auto;
+    padding-top:40px;
+    border:1px solid black;
+    background: #f2f2f2;
+    border-radius: 30px;
+}
+.log>p{
+    margin-top:20px;
+}
+.p11{
+    text-align: center;
+}
+.btn11{
+    margin-top:25px;
+    margin-left:120px;
+    height:30px;
+    width:100px;
+    background-color: #ffffff;
+    border:1px solid rgb(192, 188, 183);
+}
