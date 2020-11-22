@@ -14,7 +14,7 @@ const Todos = (props) => {
 
                     {
                         type: 'ADD_TODO',
-                        value: 'hanyumeng'
+                        value: 'gaoti'
                     }
                 )
             }}>添加</button>

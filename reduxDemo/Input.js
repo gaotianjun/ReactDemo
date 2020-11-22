@@ -5,12 +5,27 @@ const change = (props) => {
     console.log(props)
     return (
         <div>
+
+            <input type="text" onKeyDown={(e) => {
+                if (e.keyCode == 13) {//回车键的keycode
+                    props.dispatch(
+                        {
+                            type: 'ADD_TODO',
+                            value: e.target.value
+                        },
+                        e.target.value = ''
+                    )
+                }
+            }} />
             {
                 props.todos.map((item, idx) =>
+
+
+
                     <li key={idx}>
                         {item}
                         <button
-                            style={{ backgroundColor: 'blueviolet', marginLeft: '20px' }}
+                            style={{  marginLeft: '20px' }}
                             onClick={() => {
                                 props.dispatch(
                                     {
@@ -25,17 +40,7 @@ const change = (props) => {
                     </li>)
             }
 
-            <input type="text" onKeyDown={(e) => {
-                if (e.keyCode == 13) {//回车键的keycode
-                    props.dispatch(
-                        {
-                            type: 'ADD_TODO',
-                            value: e.target.value
-                        },
-                        e.target.value = ''
-                    )
-                }
-            }} />
+
         </div>
     )
 }

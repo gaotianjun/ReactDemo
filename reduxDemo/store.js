@@ -34,8 +34,8 @@ let rootReducer=combineReducers(
 
 const store=createStore(
     rootReducer,
-    compose(applyMiddleware(logger,thunk),
-    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
-    );//传入对应的reducer
+    compose(applyMiddleware(logger,thunk)
+    //window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
+    ));//传入对应的reducer
 
 export default store;

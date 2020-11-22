@@ -25,10 +25,9 @@ const App = () => {
     return <Provider store={store}>
         {/* 向下传值 */}
         {/* <Todos/> */}
-        
         <Router> 
-            <Change/>
             <Home/>
+            <Change/> 
         </Router> 
 
     </Provider>

@@ -10,10 +10,7 @@ import ReactDOM from 'react-dom';
 // import Hook from './pages/Hook';
 
 //import App from './reduxDemo/App';
-//import App from './taobao/App';
 //import App from './pages/TodoList'
-//import App from './tao/App';
-// import 'antd-mobile/dist/antd-mobile.css';
 
 // ReactDOM.render(
 //   <Control />,
@@ -25,9 +22,15 @@ import ReactDOM from 'react-dom';
 //----React----
 // import React, { createElement } from 'react';
 // import ReactDOM, { render } from 'react-dom';
- import App from './header/App';
+//import App from './header/App';
 // // import App from './react/App'
+//import App from './reduxDemo/App'
  
+//要一起引用
+import App from './taobao/App';
+import 'antd-mobile/dist/antd-mobile.css';
+
+
  ReactDOM.render(
    <App />,
    document.getElementById('root')
